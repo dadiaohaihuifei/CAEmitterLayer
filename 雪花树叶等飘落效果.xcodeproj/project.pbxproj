@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C96EB3E1F6787F1008F677C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB3D1F6787F1008F677C /* main.m */; };
+		7C96EB411F6787F1008F677C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB401F6787F1008F677C /* AppDelegate.m */; };
+		7C96EB441F6787F1008F677C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB431F6787F1008F677C /* ViewController.m */; };
+		7C96EB471F6787F1008F677C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB451F6787F1008F677C /* Main.storyboard */; };
+		7C96EB491F6787F1008F677C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB481F6787F1008F677C /* Assets.xcassets */; };
+		7C96EB4C1F6787F1008F677C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB4A1F6787F1008F677C /* LaunchScreen.storyboard */; };
+		7C96EB561F6788B4008F677C /* WDAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB551F6788B4008F677C /* WDAnimationManager.m */; };
+		7C96EB591F678BA6008F677C /* WDEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB581F678BA6008F677C /* WDEmitterLayer.m */; };
+		7C96EB5F1F67901D008F677C /* WDEmitterBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB5E1F67901D008F677C /* WDEmitterBaseCell.m */; };
+		7C96EB6B1F679152008F677C /* WDSnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB6A1F679152008F677C /* WDSnowCell.m */; };
+		7C96EB6E1F679167008F677C /* WDLeavesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB6D1F679167008F677C /* WDLeavesCell.m */; };
+		7C96EB711F679174008F677C /* WDRainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB701F679174008F677C /* WDRainCell.m */; };
+		7C96EB731F6791E7008F677C /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB721F6791E7008F677C /* leaves.png */; };
+		7C96EB751F6791F6008F677C /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB741F6791F6008F677C /* rain.png */; };
+		7C96EB771F6791FE008F677C /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C96EB761F6791FE008F677C /* snow.png */; };
+		7C96EB7A1F67932D008F677C /* UIImage+EXtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96EB791F67932D008F677C /* UIImage+EXtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C96EB391F6787F0008F677C /* 雪花树叶等飘落效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "雪花树叶等飘落效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C96EB3D1F6787F1008F677C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C96EB3F1F6787F1008F677C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C96EB401F6787F1008F677C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C96EB421F6787F1008F677C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C96EB431F6787F1008F677C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C96EB461F6787F1008F677C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C96EB481F6787F1008F677C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C96EB4B1F6787F1008F677C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C96EB4D1F6787F1008F677C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C96EB541F6788B4008F677C /* WDAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDAnimationManager.h; sourceTree = "<group>"; };
+		7C96EB551F6788B4008F677C /* WDAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDAnimationManager.m; sourceTree = "<group>"; };
+		7C96EB571F678BA6008F677C /* WDEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDEmitterLayer.h; sourceTree = "<group>"; };
+		7C96EB581F678BA6008F677C /* WDEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDEmitterLayer.m; sourceTree = "<group>"; };
+		7C96EB5D1F67901D008F677C /* WDEmitterBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDEmitterBaseCell.h; sourceTree = "<group>"; };
+		7C96EB5E1F67901D008F677C /* WDEmitterBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDEmitterBaseCell.m; sourceTree = "<group>"; };
+		7C96EB691F679152008F677C /* WDSnowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSnowCell.h; sourceTree = "<group>"; };
+		7C96EB6A1F679152008F677C /* WDSnowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSnowCell.m; sourceTree = "<group>"; };
+		7C96EB6C1F679167008F677C /* WDLeavesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLeavesCell.h; sourceTree = "<group>"; };
+		7C96EB6D1F679167008F677C /* WDLeavesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLeavesCell.m; sourceTree = "<group>"; };
+		7C96EB6F1F679174008F677C /* WDRainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDRainCell.h; sourceTree = "<group>"; };
+		7C96EB701F679174008F677C /* WDRainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDRainCell.m; sourceTree = "<group>"; };
+		7C96EB721F6791E7008F677C /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		7C96EB741F6791F6008F677C /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		7C96EB761F6791FE008F677C /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		7C96EB781F67932D008F677C /* UIImage+EXtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXtension.h"; sourceTree = "<group>"; };
+		7C96EB791F67932D008F677C /* UIImage+EXtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C96EB361F6787F0008F677C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C96EB301F6787F0008F677C = {
+			isa = PBXGroup;
+			children = (
+				7C96EB3B1F6787F1008F677C /* 雪花树叶等飘落效果 */,
+				7C96EB3A1F6787F0008F677C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C96EB3A1F6787F0008F677C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C96EB391F6787F0008F677C /* 雪花树叶等飘落效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C96EB3B1F6787F1008F677C /* 雪花树叶等飘落效果 */ = {
+			isa = PBXGroup;
+			children = (
+				7C96EB3F1F6787F1008F677C /* AppDelegate.h */,
+				7C96EB401F6787F1008F677C /* AppDelegate.m */,
+				7C96EB421F6787F1008F677C /* ViewController.h */,
+				7C96EB431F6787F1008F677C /* ViewController.m */,
+				7C96EB531F67888E008F677C /* AnimateManager */,
+				7C96EB451F6787F1008F677C /* Main.storyboard */,
+				7C96EB481F6787F1008F677C /* Assets.xcassets */,
+				7C96EB4A1F6787F1008F677C /* LaunchScreen.storyboard */,
+				7C96EB4D1F6787F1008F677C /* Info.plist */,
+				7C96EB3C1F6787F1008F677C /* Supporting Files */,
+			);
+			path = "雪花树叶等飘落效果";
+			sourceTree = "<group>";
+		};
+		7C96EB3C1F6787F1008F677C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C96EB3D1F6787F1008F677C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C96EB531F67888E008F677C /* AnimateManager */ = {
+			isa = PBXGroup;
+			children = (
+				7C96EB781F67932D008F677C /* UIImage+EXtension.h */,
+				7C96EB791F67932D008F677C /* UIImage+EXtension.m */,
+				7C96EB541F6788B4008F677C /* WDAnimationManager.h */,
+				7C96EB551F6788B4008F677C /* WDAnimationManager.m */,
+				7C96EB571F678BA6008F677C /* WDEmitterLayer.h */,
+				7C96EB581F678BA6008F677C /* WDEmitterLayer.m */,
+				7C96EB5D1F67901D008F677C /* WDEmitterBaseCell.h */,
+				7C96EB5E1F67901D008F677C /* WDEmitterBaseCell.m */,
+				7C96EB691F679152008F677C /* WDSnowCell.h */,
+				7C96EB6A1F679152008F677C /* WDSnowCell.m */,
+				7C96EB761F6791FE008F677C /* snow.png */,
+				7C96EB6C1F679167008F677C /* WDLeavesCell.h */,
+				7C96EB6D1F679167008F677C /* WDLeavesCell.m */,
+				7C96EB721F6791E7008F677C /* leaves.png */,
+				7C96EB6F1F679174008F677C /* WDRainCell.h */,
+				7C96EB701F679174008F677C /* WDRainCell.m */,
+				7C96EB741F6791F6008F677C /* rain.png */,
+			);
+			path = AnimateManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C96EB381F6787F0008F677C /* 雪花树叶等飘落效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C96EB501F6787F1008F677C /* Build configuration list for PBXNativeTarget "雪花树叶等飘落效果" */;
+			buildPhases = (
+				7C96EB351F6787F0008F677C /* Sources */,
+				7C96EB361F6787F0008F677C /* Frameworks */,
+				7C96EB371F6787F0008F677C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "雪花树叶等飘落效果";
+			productName = "雪花树叶等飘落效果";
+			productReference = 7C96EB391F6787F0008F677C /* 雪花树叶等飘落效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C96EB311F6787F0008F677C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = IYOO;
+				TargetAttributes = {
+					7C96EB381F6787F0008F677C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 76N45R3H4A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C96EB341F6787F0008F677C /* Build configuration list for PBXProject "雪花树叶等飘落效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C96EB301F6787F0008F677C;
+			productRefGroup = 7C96EB3A1F6787F0008F677C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C96EB381F6787F0008F677C /* 雪花树叶等飘落效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C96EB371F6787F0008F677C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C96EB4C1F6787F1008F677C /* LaunchScreen.storyboard in Resources */,
+				7C96EB751F6791F6008F677C /* rain.png in Resources */,
+				7C96EB771F6791FE008F677C /* snow.png in Resources */,
+				7C96EB731F6791E7008F677C /* leaves.png in Resources */,
+				7C96EB491F6787F1008F677C /* Assets.xcassets in Resources */,
+				7C96EB471F6787F1008F677C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C96EB351F6787F0008F677C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C96EB591F678BA6008F677C /* WDEmitterLayer.m in Sources */,
+				7C96EB6B1F679152008F677C /* WDSnowCell.m in Sources */,
+				7C96EB441F6787F1008F677C /* ViewController.m in Sources */,
+				7C96EB561F6788B4008F677C /* WDAnimationManager.m in Sources */,
+				7C96EB6E1F679167008F677C /* WDLeavesCell.m in Sources */,
+				7C96EB5F1F67901D008F677C /* WDEmitterBaseCell.m in Sources */,
+				7C96EB411F6787F1008F677C /* AppDelegate.m in Sources */,
+				7C96EB7A1F67932D008F677C /* UIImage+EXtension.m in Sources */,
+				7C96EB3E1F6787F1008F677C /* main.m in Sources */,
+				7C96EB711F679174008F677C /* WDRainCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C96EB451F6787F1008F677C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C96EB461F6787F1008F677C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C96EB4A1F6787F1008F677C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C96EB4B1F6787F1008F677C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C96EB4E1F6787F1008F677C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C96EB4F1F6787F1008F677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C96EB511F6787F1008F677C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76N45R3H4A;
+				INFOPLIST_FILE = "雪花树叶等飘落效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.iyoo.www.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C96EB521F6787F1008F677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76N45R3H4A;
+				INFOPLIST_FILE = "雪花树叶等飘落效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.iyoo.www.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C96EB341F6787F0008F677C /* Build configuration list for PBXProject "雪花树叶等飘落效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C96EB4E1F6787F1008F677C /* Debug */,
+				7C96EB4F1F6787F1008F677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C96EB501F6787F1008F677C /* Build configuration list for PBXNativeTarget "雪花树叶等飘落效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C96EB511F6787F1008F677C /* Debug */,
+				7C96EB521F6787F1008F677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C96EB311F6787F0008F677C /* Project object */;
+}
